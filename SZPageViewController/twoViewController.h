@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  twoViewController.h
 //  SZPageViewController
 //
 //  Created by app-dev on 2018/1/24.
@@ -7,13 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-
-
-@interface ViewController : UIViewController
-@property (nonatomic, strong) NSCache *memCache;
-
-
+#import "UIViewController+ChildController.h"
+@interface twoViewController : UIViewController
 
 @end
-

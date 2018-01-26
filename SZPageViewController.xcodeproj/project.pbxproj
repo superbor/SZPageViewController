@@ -15,6 +15,15 @@
 		2F9649DF201827E500499725 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9649DE201827E500499725 /* main.m */; };
 		2F9649E9201827E500499725 /* SZPageViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9649E8201827E500499725 /* SZPageViewControllerTests.m */; };
 		2F9649F4201827E500499725 /* SZPageViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9649F3201827E500499725 /* SZPageViewControllerUITests.m */; };
+		2F964A032018281800499725 /* oneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F964A022018281800499725 /* oneViewController.m */; };
+		2F964A0720182E5800499725 /* twoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F964A0620182E5800499725 /* twoViewController.m */; };
+		2F964A0A2018794D00499725 /* GYPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F964A092018794D00499725 /* GYPageViewController.m */; };
+		2FA21CBC20197A9F00289258 /* UIViewController+ChildController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA21CBB20197A9F00289258 /* UIViewController+ChildController.m */; };
+		2FA21CC02019814F00289258 /* GYTabPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA21CBF2019814F00289258 /* GYTabPageViewController.m */; };
+		2FA21CC72019829300289258 /* HMSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA21CC42019822E00289258 /* HMSegmentedControl.m */; };
+		2FA21CCA20199F1000289258 /* UIView+RemoveConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA21CC920199F1000289258 /* UIView+RemoveConstraints.m */; };
+		2FA21CCD2019A1D900289258 /* NSArray+RemoveConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA21CCC2019A1D900289258 /* NSArray+RemoveConstraints.m */; };
+		2FA21CD02019A53B00289258 /* NSLayoutConstraint+RemoveConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA21CCF2019A53B00289258 /* NSLayoutConstraint+RemoveConstraints.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,26 @@
 		2F9649EF201827E500499725 /* SZPageViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SZPageViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F9649F3201827E500499725 /* SZPageViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZPageViewControllerUITests.m; sourceTree = "<group>"; };
 		2F9649F5201827E500499725 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F964A012018281800499725 /* oneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = oneViewController.h; sourceTree = "<group>"; };
+		2F964A022018281800499725 /* oneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = oneViewController.m; sourceTree = "<group>"; };
+		2F964A0520182E5800499725 /* twoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = twoViewController.h; sourceTree = "<group>"; };
+		2F964A0620182E5800499725 /* twoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = twoViewController.m; sourceTree = "<group>"; };
+		2F964A082018794D00499725 /* GYPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GYPageViewController.h; sourceTree = "<group>"; };
+		2F964A092018794D00499725 /* GYPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYPageViewController.m; sourceTree = "<group>"; };
+		2FA21CBA20197A9F00289258 /* UIViewController+ChildController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ChildController.h"; sourceTree = "<group>"; };
+		2FA21CBB20197A9F00289258 /* UIViewController+ChildController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ChildController.m"; sourceTree = "<group>"; };
+		2FA21CBE2019814F00289258 /* GYTabPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GYTabPageViewController.h; sourceTree = "<group>"; };
+		2FA21CBF2019814F00289258 /* GYTabPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYTabPageViewController.m; sourceTree = "<group>"; };
+		2FA21CC32019822E00289258 /* HMSegmentedControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMSegmentedControl.h; sourceTree = "<group>"; };
+		2FA21CC42019822E00289258 /* HMSegmentedControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMSegmentedControl.m; sourceTree = "<group>"; };
+		2FA21CC52019822E00289258 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		2FA21CC62019822E00289258 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2FA21CC820199F1000289258 /* UIView+RemoveConstraints.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+RemoveConstraints.h"; sourceTree = "<group>"; };
+		2FA21CC920199F1000289258 /* UIView+RemoveConstraints.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+RemoveConstraints.m"; sourceTree = "<group>"; };
+		2FA21CCB2019A1D900289258 /* NSArray+RemoveConstraints.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+RemoveConstraints.h"; sourceTree = "<group>"; };
+		2FA21CCC2019A1D900289258 /* NSArray+RemoveConstraints.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+RemoveConstraints.m"; sourceTree = "<group>"; };
+		2FA21CCE2019A53B00289258 /* NSLayoutConstraint+RemoveConstraints.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+RemoveConstraints.h"; sourceTree = "<group>"; };
+		2FA21CCF2019A53B00289258 /* NSLayoutConstraint+RemoveConstraints.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+RemoveConstraints.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +130,7 @@
 		2F9649CE201827E400499725 /* SZPageViewController */ = {
 			isa = PBXGroup;
 			children = (
+				2FA21CBD2019812300289258 /* Classes */,
 				2F9649CF201827E400499725 /* AppDelegate.h */,
 				2F9649D0201827E500499725 /* AppDelegate.m */,
 				2F9649D2201827E500499725 /* ViewController.h */,
@@ -110,6 +140,10 @@
 				2F9649DA201827E500499725 /* LaunchScreen.storyboard */,
 				2F9649DD201827E500499725 /* Info.plist */,
 				2F9649DE201827E500499725 /* main.m */,
+				2F964A012018281800499725 /* oneViewController.h */,
+				2F964A022018281800499725 /* oneViewController.m */,
+				2F964A0520182E5800499725 /* twoViewController.h */,
+				2F964A0620182E5800499725 /* twoViewController.m */,
 			);
 			path = SZPageViewController;
 			sourceTree = "<group>";
@@ -130,6 +164,45 @@
 				2F9649F5201827E500499725 /* Info.plist */,
 			);
 			path = SZPageViewControllerUITests;
+			sourceTree = "<group>";
+		};
+		2FA21CBD2019812300289258 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2FA21CC12019822E00289258 /* HMSegmentedControl */,
+				2F964A082018794D00499725 /* GYPageViewController.h */,
+				2F964A092018794D00499725 /* GYPageViewController.m */,
+				2FA21CBA20197A9F00289258 /* UIViewController+ChildController.h */,
+				2FA21CBB20197A9F00289258 /* UIViewController+ChildController.m */,
+				2FA21CBE2019814F00289258 /* GYTabPageViewController.h */,
+				2FA21CBF2019814F00289258 /* GYTabPageViewController.m */,
+				2FA21CC820199F1000289258 /* UIView+RemoveConstraints.h */,
+				2FA21CC920199F1000289258 /* UIView+RemoveConstraints.m */,
+				2FA21CCB2019A1D900289258 /* NSArray+RemoveConstraints.h */,
+				2FA21CCC2019A1D900289258 /* NSArray+RemoveConstraints.m */,
+				2FA21CCE2019A53B00289258 /* NSLayoutConstraint+RemoveConstraints.h */,
+				2FA21CCF2019A53B00289258 /* NSLayoutConstraint+RemoveConstraints.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2FA21CC12019822E00289258 /* HMSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				2FA21CC22019822E00289258 /* HMSegmentedControl */,
+				2FA21CC52019822E00289258 /* LICENSE.md */,
+				2FA21CC62019822E00289258 /* README.md */,
+			);
+			path = HMSegmentedControl;
+			sourceTree = "<group>";
+		};
+		2FA21CC22019822E00289258 /* HMSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				2FA21CC32019822E00289258 /* HMSegmentedControl.h */,
+				2FA21CC42019822E00289258 /* HMSegmentedControl.m */,
+			);
+			path = HMSegmentedControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,9 +338,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FA21CC72019829300289258 /* HMSegmentedControl.m in Sources */,
+				2FA21CCA20199F1000289258 /* UIView+RemoveConstraints.m in Sources */,
+				2FA21CD02019A53B00289258 /* NSLayoutConstraint+RemoveConstraints.m in Sources */,
+				2FA21CCD2019A1D900289258 /* NSArray+RemoveConstraints.m in Sources */,
 				2F9649D4201827E500499725 /* ViewController.m in Sources */,
+				2F964A0A2018794D00499725 /* GYPageViewController.m in Sources */,
 				2F9649DF201827E500499725 /* main.m in Sources */,
 				2F9649D1201827E500499725 /* AppDelegate.m in Sources */,
+				2F964A032018281800499725 /* oneViewController.m in Sources */,
+				2F964A0720182E5800499725 /* twoViewController.m in Sources */,
+				2FA21CBC20197A9F00289258 /* UIViewController+ChildController.m in Sources */,
+				2FA21CC02019814F00289258 /* GYTabPageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +515,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CQ225TY7SQ;
 				INFOPLIST_FILE = SZPageViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.china.SZPageViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -447,6 +530,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CQ225TY7SQ;
 				INFOPLIST_FILE = SZPageViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.china.SZPageViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
